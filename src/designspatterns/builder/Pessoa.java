@@ -1,5 +1,7 @@
 package designspatterns.builder;
 
+import java.time.LocalDate;
+
 public class Pessoa {
 
     private String nome;
@@ -7,9 +9,9 @@ public class Pessoa {
     private String documento;
     private String email;
     private String apelido;
-    private String dataDeNascimento;
+    private LocalDate dataDeNascimento;
 
-    public Pessoa(String nome, String sobrenome, String documento, String email, String apelido, String dataDeNascimento) {
+    public Pessoa(String nome, String sobrenome, String documento, String email, String apelido, LocalDate dataDeNascimento) {
         this.nome = nome;
         this.sobrenome = sobrenome;
         this.documento = documento;
@@ -58,11 +60,11 @@ public class Pessoa {
         this.apelido = apelido;
     }
 
-    public String getDataDeNascimento() {
+    public LocalDate getDataDeNascimento() {
         return dataDeNascimento;
     }
 
-    public void setDataDeNascimento(String dataDeNascimento) {
+    public void setDataDeNascimento(LocalDate dataDeNascimento) {
         this.dataDeNascimento = dataDeNascimento;
     }
 
