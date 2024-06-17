@@ -1,11 +1,10 @@
 package designspatterns.builder.solução;
 
 import designspatterns.builder.Pessoa;
-import org.w3c.dom.ls.LSOutput;
 
 import java.time.LocalDate;
 
-public class TestePessoComBuilder {
+public class TestePessoaComBuilder {
 
     public static void main(String[] args) {
         // ... new PessoaBuilder().nome("Moisés").sobrenome("Lima") ... => Fluência de Métodos
