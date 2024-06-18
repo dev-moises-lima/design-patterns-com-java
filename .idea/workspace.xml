@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1402d216-4516-4174-8895-becea0fbcab7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/designspatterns/builder/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designspatterns/builder/PessoaDois.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designspatterns/builder/PessoaDois.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designspatterns/builder/solucaodois/TestePessoaComBuilderDois.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designspatterns/builder/solucaodois/TestePessoaComBuilderDois.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designspatterns/builder/solucao/TestePessoaComBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designspatterns/builder/solucao/TestePessoaComBuilder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,17 +34,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.TestePessoa.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/there/IdeaProjects/design-patterns-com-java&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/infor23/IdeaProjects/design-patterns-com-java/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.TestePessoa.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/there/IdeaProjects/design-patterns-com-java",
+    "onboarding.tips.debug.path": "C:/Users/infor23/IdeaProjects/design-patterns-com-java/src/Main.java"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="TestePessoa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="designspatterns.builder.problema.TestePessoa" />

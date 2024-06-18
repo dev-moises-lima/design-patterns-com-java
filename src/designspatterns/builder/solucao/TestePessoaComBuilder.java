@@ -9,7 +9,7 @@ public class TestePessoaComBuilder {
     public static void main(String[] args) {
 
         // ... new PessoaBuilder().nome("Moisés").sobrenome("Lima") ... => Fluência de Métodos
-        // Agora podemos usar a classe Builder[PessoaBuilder]
+        // Agora podemos usar a classe Builder[PessoaBuilder] para instanciar os objetos da classe Pessoa
         Pessoa pessoa = new PessoaBuilder()
                 .nome("Moisés")
                 .sobrenome("Lima")
