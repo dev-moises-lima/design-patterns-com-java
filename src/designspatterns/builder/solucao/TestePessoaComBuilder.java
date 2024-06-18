@@ -7,7 +7,9 @@ import java.time.LocalDate;
 public class TestePessoaComBuilder {
 
     public static void main(String[] args) {
+
         // ... new PessoaBuilder().nome("Moisés").sobrenome("Lima") ... => Fluência de Métodos
+        // Agora podemos usar a classe Builder[PessoaBuilder]
         Pessoa pessoa = new PessoaBuilder()
                 .nome("Moisés")
                 .sobrenome("Lima")
@@ -15,7 +17,7 @@ public class TestePessoaComBuilder {
                 .apelido("Zé Pequeno")
                 .email("moises.lima@gmail.com")
                 .dataDeNascimento(LocalDate.of(2006, 10, 9))
-                .criaPessoa();
+                .build();
 
         System.out.println(pessoa);
     }

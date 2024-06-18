@@ -1,10 +1,10 @@
-package designspatterns.builder;
+package designspatterns.builder.solucaoii;
 
 import java.time.LocalDate;
 
 // Classe de pessoa para implementar segunda solução
 
-public class PessoaDois {
+public class Pessoa {
     private String nome;
     private String sobrenome;
     private String documento;
@@ -12,7 +12,7 @@ public class PessoaDois {
     private String apelido;
     private LocalDate dataDeNascimento;
 
-    private PessoaDois(String nome, String sobrenome, String documento, String email, String apelido, LocalDate dataDeNascimento) {
+    private Pessoa(String nome, String sobrenome, String documento, String email, String apelido, LocalDate dataDeNascimento) {
         this.nome = nome;
         this.sobrenome = sobrenome;
         this.documento = documento;
@@ -120,8 +120,8 @@ public class PessoaDois {
             return this;
         }
 
-        public PessoaDois criaPessoa() {
-            return new PessoaDois(nome, sobrenome, documento, email, apelido, dataDeNascimento);
+        public Pessoa build() {
+            return new Pessoa(nome, sobrenome, documento, email, apelido, dataDeNascimento);
         }
 
     }
