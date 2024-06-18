@@ -1,4 +1,4 @@
-package designspatterns.builder.solução;
+package designspatterns.builder.solucao;
 
 import java.time.LocalDate;
 import designspatterns.builder.Pessoa;
