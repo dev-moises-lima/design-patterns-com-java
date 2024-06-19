@@ -1,7 +1,6 @@
-package designspatterns.builder.solucao;
+package designspatterns.builder.solucaoi;
 
 import java.time.LocalDate;
-import designspatterns.builder.Pessoa;
 
 public class PessoaBuilder {
 

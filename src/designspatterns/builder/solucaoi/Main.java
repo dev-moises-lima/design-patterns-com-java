@@ -1,10 +1,8 @@
-package designspatterns.builder.solucao;
-
-import designspatterns.builder.Pessoa;
+package designspatterns.builder.solucaoi;
 
 import java.time.LocalDate;
 
-public class TestePessoaComBuilder {
+public class Main {
 
     public static void main(String[] args) {
 

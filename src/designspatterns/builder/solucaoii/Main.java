@@ -2,7 +2,7 @@ package designspatterns.builder.solucaoii;
 
 import java.time.LocalDate;
 
-public class TestePessoaComBuilderDois {
+public class Main {
 
     public static void main(String[] args) {
 
